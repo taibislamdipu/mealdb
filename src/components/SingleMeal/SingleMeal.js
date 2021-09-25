@@ -21,7 +21,7 @@ const SingleMeal = (props) => {
             <p>
                 <small>{strCategory}</small>
             </p>
-            <button className="btn btn-primary" onClick={() => handleAddToCart(name)}>
+            <button className="btn btn-success" onClick={() => handleAddToCart(name)}>
                 <FontAwesomeIcon icon={faPlus} />   Add To Cart
             </button>
         </div>
